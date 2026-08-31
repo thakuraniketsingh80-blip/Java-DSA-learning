@@ -1,0 +1,9 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Build files
+out/
+
+# VS Code
+.vscode/
