@@ -15,9 +15,9 @@ public class SumOfThreeNo {
         System.out.println("Enter Number 3: ");
         num3 = sc.nextInt();
 
-        System.out.println("Sum of 3 number is:" + num1 + num2 + num3);
+        System.out.println("Sum of 3 number is:" + (num1 + num2 + num3));
 
-
+        sc.close();
     }
 
 }

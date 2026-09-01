@@ -12,5 +12,6 @@ public class InputByUser {
         num = sc.nextInt();
         square = num * num;
         System.out.println("Square of the number is " + square);
+        sc.close();
     }
 }
