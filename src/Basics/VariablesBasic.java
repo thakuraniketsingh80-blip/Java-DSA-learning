@@ -1,6 +1,6 @@
 package Basics;
 
-public class variables_basic {
+public class VariablesBasic {
     public static void main(String[] args) {
         int x;                  // declaration
         x = 10;                   // initialization

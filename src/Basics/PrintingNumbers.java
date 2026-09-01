@@ -1,6 +1,6 @@
 package Basics;
 
-public class Printing_numbers {
+public class PrintingNumbers {
     public static void main(String[] args)
     {
         System.out.println(99+86);
