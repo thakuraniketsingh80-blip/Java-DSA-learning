@@ -15,7 +15,7 @@ public class ApDiffOfSix {
 
         int a = 4 , d = 6;
         for (int i = 1; i <= num ; i++) {
-            System.out.print( a + " ");
+            System.out.print( a  + " " ) ;
             a+=d;
         }
     }
