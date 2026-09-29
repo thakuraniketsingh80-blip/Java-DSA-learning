@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class AlphabetVerticalFlippedTriangle {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
         int row;
@@ -17,7 +18,7 @@ public class AlphabetVerticalFlippedTriangle {
             for (int j = 1; j <= i; j++) {
                 System.out.print((char)(64 + i) + " ");
             }
-        System.out.println();
+            System.out.println();
         }
     }
 }
