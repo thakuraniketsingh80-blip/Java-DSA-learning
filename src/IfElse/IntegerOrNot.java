@@ -18,5 +18,6 @@ public class IntegerOrNot {
         else {
             System.out.print("the number is Integer");
         }
+        sc.close();
     }
 }

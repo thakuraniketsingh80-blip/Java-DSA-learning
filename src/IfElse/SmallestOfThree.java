@@ -29,5 +29,6 @@ public class SmallestOfThree {
                 System.out.println("Number 3 is Smallest " + num3);
             }
         }
+        sc.close();
     }
 }

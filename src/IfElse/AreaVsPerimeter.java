@@ -24,6 +24,7 @@ public class AreaVsPerimeter {
         else {
             System.out.println("Perimeter "+ perimeter +" is greater than Area" + area);
         }
+        sc.close();
     }
 }
     

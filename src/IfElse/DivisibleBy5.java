@@ -18,5 +18,6 @@ public class DivisibleBy5 {
         else{
             System.out.println("The number you entered is not divisible by 5");
         }
+        sc.close();
     }
 }

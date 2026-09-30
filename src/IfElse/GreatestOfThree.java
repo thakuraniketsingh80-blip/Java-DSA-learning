@@ -32,5 +32,6 @@ public class GreatestOfThree {
               System.out.println("Number 3 is greatest " + num3);
             }
         }
+        sc.close();
     }
 }

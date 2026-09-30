@@ -12,5 +12,6 @@ public class AbsoluteValue {
             num = -num;
         }
             System.out.println("The absolute value of the number is " + num);
+            sc.close();
     }
 }

@@ -21,5 +21,6 @@ public class SidesOfTriangle {
         else {
             System.out.print("It is a invalid triangle");
         }
+        sc.close();
     }
 }

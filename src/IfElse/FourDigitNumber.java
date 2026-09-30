@@ -15,5 +15,6 @@ public class FourDigitNumber {
         else{
             System.out.println("Your number is not a 4 digits number");
         }
+        sc.close();
     }
 }

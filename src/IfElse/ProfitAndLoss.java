@@ -26,5 +26,6 @@ public class ProfitAndLoss {
         else{
             System.out.println("you made neither loss nor profit");
         }
+        sc.close();
     }
 }

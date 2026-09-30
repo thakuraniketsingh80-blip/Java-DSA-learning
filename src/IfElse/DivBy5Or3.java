@@ -15,5 +15,6 @@ public class DivBy5Or3 {
         else{
             System.out.println("Number is not Divisible by 5 or 3");
         }
+        sc.close();
     }
 }

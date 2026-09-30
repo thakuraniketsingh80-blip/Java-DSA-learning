@@ -17,5 +17,6 @@ public class MagLess69 {
         else{
             System.out.println("No your Absolute value is not smaller than 69");
         }
+        sc.close();
     }
 }

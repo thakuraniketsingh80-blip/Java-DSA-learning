@@ -10,5 +10,7 @@ public class TernaryOperator {
         System.out.print("Enter your Number: ");
         num = sc.nextInt();
         System.out.print((num % 2 == 0 ) ? "Even" : "Odd");
+
+        sc.close();
     }
 }

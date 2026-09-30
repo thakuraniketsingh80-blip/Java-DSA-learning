@@ -34,5 +34,6 @@ public class WhichQuadrant {
         else {
             System.out.println("Co-ordinates are in 4st quadrant");
         }
+        sc.close();
     }
 }

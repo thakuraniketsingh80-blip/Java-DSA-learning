@@ -22,5 +22,6 @@ public class DivBy5And3Ladder {
         else {
             System.out.print("Number is not divisible by 3 or 5");
         }
+        sc.close();
     }
 }
