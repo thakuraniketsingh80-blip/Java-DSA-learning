@@ -17,5 +17,6 @@ public class OddNumberTriangle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

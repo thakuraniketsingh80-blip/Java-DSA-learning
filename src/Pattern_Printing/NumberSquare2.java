@@ -17,5 +17,6 @@ public class NumberSquare2 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

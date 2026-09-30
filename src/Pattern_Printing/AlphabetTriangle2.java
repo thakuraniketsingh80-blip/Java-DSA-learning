@@ -16,5 +16,6 @@ public class AlphabetTriangle2 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

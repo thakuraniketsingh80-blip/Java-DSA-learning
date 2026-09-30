@@ -18,5 +18,6 @@ public class NumberSquare {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

@@ -17,5 +17,6 @@ public class StarSquare {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

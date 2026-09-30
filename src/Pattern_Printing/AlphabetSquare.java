@@ -15,5 +15,6 @@ public class AlphabetSquare {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

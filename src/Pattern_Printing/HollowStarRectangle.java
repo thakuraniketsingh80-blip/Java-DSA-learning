@@ -25,5 +25,6 @@ public class HollowStarRectangle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

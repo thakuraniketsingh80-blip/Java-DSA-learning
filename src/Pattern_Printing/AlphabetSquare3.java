@@ -22,5 +22,6 @@ public class AlphabetSquare3 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

@@ -18,5 +18,6 @@ public class VerticalFlippedNoTriangle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

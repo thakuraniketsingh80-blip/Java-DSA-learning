@@ -17,5 +17,6 @@ public class FlippedNumberTriangle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

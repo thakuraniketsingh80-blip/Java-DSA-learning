@@ -19,5 +19,6 @@ public class StarRecatngle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

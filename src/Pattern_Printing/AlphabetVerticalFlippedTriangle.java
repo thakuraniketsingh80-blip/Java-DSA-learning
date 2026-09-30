@@ -20,5 +20,6 @@ public class AlphabetVerticalFlippedTriangle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

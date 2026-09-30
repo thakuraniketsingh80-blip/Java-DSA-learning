@@ -17,5 +17,6 @@ public class StarTriangle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

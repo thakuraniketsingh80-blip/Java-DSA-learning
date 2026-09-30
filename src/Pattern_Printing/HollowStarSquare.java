@@ -23,5 +23,6 @@ public class HollowStarSquare {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

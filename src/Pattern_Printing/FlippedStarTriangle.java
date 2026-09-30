@@ -18,5 +18,6 @@ public class FlippedStarTriangle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

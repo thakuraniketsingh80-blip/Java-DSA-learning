@@ -22,5 +22,6 @@ public class AlphaNumericTriangle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

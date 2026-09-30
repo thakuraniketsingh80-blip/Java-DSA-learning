@@ -16,5 +16,6 @@ public class NumberTriangle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

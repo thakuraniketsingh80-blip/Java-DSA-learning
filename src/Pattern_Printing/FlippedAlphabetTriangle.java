@@ -17,5 +17,6 @@ public class FlippedAlphabetTriangle {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
