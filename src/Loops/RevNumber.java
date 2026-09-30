@@ -16,5 +16,7 @@ public class RevNumber {
             rev = rev * 10 + digit;
         }
         System.out.println(rev);
+
+        sc.close();
     }
 }

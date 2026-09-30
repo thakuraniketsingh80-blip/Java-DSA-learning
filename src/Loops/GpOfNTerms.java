@@ -16,5 +16,6 @@ public class GpOfNTerms {
             System.out.print(a + " ");
             a *= r;
         }
+        sc.close();
     }
 }

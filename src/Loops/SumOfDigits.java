@@ -14,5 +14,7 @@ public class SumOfDigits {
             sum = sum + digit;
         }
             System.out.print(sum);
+
+            sc.close();
     }
 }

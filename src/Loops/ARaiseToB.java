@@ -16,5 +16,7 @@ public class ARaiseToB {
             pow *= a;
         }
         System.out.println("A raise to the power b is: " + pow);
+
+        sc.close();
     }
 }

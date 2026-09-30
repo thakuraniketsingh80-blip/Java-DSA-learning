@@ -20,5 +20,6 @@ public class FactorOfNum {
                 }
             }
         }
+        sc.close();
     }
 }

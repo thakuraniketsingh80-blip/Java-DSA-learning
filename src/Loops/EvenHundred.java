@@ -9,5 +9,6 @@ public class EvenHundred {
         for (int i = 2; i <= 100 ; i+=2) {
             System.out.print(i + " ");
         }
+        sc.close();
     }
 }

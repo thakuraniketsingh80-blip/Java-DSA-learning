@@ -25,6 +25,6 @@ public class CompositeNumber {
         else {
             System.out.println("Prime number");
         }
-
+        sc.close();
     }
 }

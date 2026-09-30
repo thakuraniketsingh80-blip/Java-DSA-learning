@@ -12,5 +12,7 @@ public class FactorialOfNum {
             fact = fact * i;
         }
         System.out.print("Factorial of " + num + " is: " + fact );
+
+        sc.close();
     }
 }

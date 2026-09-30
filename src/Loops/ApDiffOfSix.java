@@ -18,6 +18,7 @@ public class ApDiffOfSix {
             System.out.print( a  + " " ) ;
             a+=d;
         }
+        sc.close();
     }
 
 }

@@ -16,5 +16,6 @@ public class ArithmeticProgression {
         for (int i = 2; i <= 3*num-1 ; i+=3) {
             System.out.print( i + " ");
         }
+        sc.close();
     }
 }

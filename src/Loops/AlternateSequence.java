@@ -6,7 +6,7 @@ public class AlternateSequence {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int num, n, count = 1;
+        int num, n;
 
         System.out.print("Enter your number: ");
         num = sc.nextInt();
@@ -20,6 +20,7 @@ public class AlternateSequence {
             System.out.println(i + 1);
             System.out.println(n - i);
         }
+        sc.close();
     }
 }
 
