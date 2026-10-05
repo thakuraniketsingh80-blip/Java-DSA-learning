@@ -1,8 +1,8 @@
-package Pattern_Printing;
+package PatternPrinting.Pattern_Printing;
 
 import java.util.Scanner;
 
-public class BinaryTriangle {
+public class AlphaNumericTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -13,11 +13,11 @@ public class BinaryTriangle {
 
         for (int i = 1; i <= row; i++) {
             for (int j = 1; j <= i; j++) {
-                if ((i + j) % 2 == 0) {
-                    System.out.print(1);
+                if (i % 2 == 0){
+                    System.out.print((char)(64 + j));
                 }
                 else {
-                    System.out.print(0);
+                    System.out.print(j);
                 }
             }
             System.out.println();

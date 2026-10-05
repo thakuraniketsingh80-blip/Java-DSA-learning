@@ -1,9 +1,10 @@
-package Pattern_Printing;
+package PatternPrinting.Pattern_Printing;
 
 import java.util.Scanner;
 
-public class StarPlus {
+public class NumberSquare {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
 
         int row;
@@ -13,12 +14,7 @@ public class StarPlus {
 
         for (int i = 1; i <= row; i++) {
             for (int j = 1; j <= row; j++) {
-                if (i == (row/2 + 1) || j == (row/2 + 1) ) {
-                    System.out.print("* ");
-                }
-                else {
-                    System.out.print("  ");
-                }
+                System.out.print(j);
             }
             System.out.println();
         }

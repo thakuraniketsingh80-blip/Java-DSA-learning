@@ -1,8 +1,8 @@
-package Pattern_Printing;
+package PatternPrinting.Pattern_Printing;
 
 import java.util.Scanner;
 
-public class NumberSquare2 {
+public class FlippedNumberTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -12,8 +12,8 @@ public class NumberSquare2 {
         row = sc.nextInt();
 
         for (int i = 1; i <= row; i++) {
-            for (int j = 1; j <= row; j++) {
-                System.out.print(i);
+            for (int j = 1; j <= row + 1 - i; j++) {
+                System.out.print(j + " ");
             }
             System.out.println();
         }
