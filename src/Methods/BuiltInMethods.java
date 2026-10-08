@@ -8,5 +8,7 @@ public class BuiltInMethods {
         System.out.println(Math.ceil(3.0001));
         System.out.println(Math.min(10 , 12));
         System.out.println(Math.max(10 , 12));
+        System.out.println(Math.pow(2 , 6));
+
     }
 }
