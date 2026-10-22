@@ -18,5 +18,6 @@ public class ProductOfArray {
             product *= arr[i];
         }
         System.out.println("The product of array's element is: " + product);
+        sc.close();
     }
 }

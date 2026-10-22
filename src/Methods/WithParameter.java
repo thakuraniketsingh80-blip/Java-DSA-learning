@@ -3,8 +3,8 @@ package Methods;
 import java.util.Scanner;
 
 public class WithParameter {
+    Scanner sc = new Scanner(System.in);
     int sum(){
-        Scanner sc = new Scanner(System.in);
         int c , a , b;
         System.out.print("Enter your num1: ");
         a = sc.nextInt();
@@ -18,5 +18,6 @@ public class WithParameter {
         WithParameter a1 = new WithParameter();
         int c = a1.sum();
         System.out.print("The sum is: " + c);
+        a1.sc.close();
     }
 }

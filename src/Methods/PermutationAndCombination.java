@@ -20,7 +20,8 @@ public class PermutationAndCombination {
 
         int NcR = Fact(n)/(Fact(r)*Fact(n-r));
         System.out.print("The Combination of " + n + " and " + r + " is: " + NcR);
-        int NpR = Fact(n)-Fact(n-r);
+        int NpR = Fact(n)/Fact(n-r);
         System.out.print("The Permutation of " + n + " and " + r + " is: " + NpR);
+    sc.close();
     }
 }

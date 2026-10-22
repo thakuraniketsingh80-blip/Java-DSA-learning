@@ -21,6 +21,7 @@ public class Swap2Numbers {
                 System.out.println("Before swapping: " + a + " " + b);
 
                 Swap(a, b);
+    sc.close();
     }
 
 }

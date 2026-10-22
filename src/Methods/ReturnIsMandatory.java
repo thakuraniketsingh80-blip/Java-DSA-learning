@@ -17,5 +17,6 @@ public class ReturnIsMandatory {
         int x = sc.nextInt();
         int c = num(x);
         System.out.print(c);
+    sc.close();
     }
 }

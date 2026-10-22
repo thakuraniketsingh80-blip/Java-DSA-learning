@@ -17,5 +17,6 @@ public class MaxOfThreeBuiltIn {
 
         System.out.println("The maximum of three number is " + Math.max(Math.max(num1 , num2), num3));
 
+   sc.close();
     }
 }
