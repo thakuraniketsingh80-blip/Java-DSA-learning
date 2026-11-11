@@ -15,6 +15,26 @@ public class ReverseArraysPart {
             arr[i] = sc.nextInt();
         }
 
+        System.out.print("Enter your starting index of reverse array: ");
+        int start = sc.nextInt();
+        System.out.print("Enter your last index of reverse array: ");
+        int temp = 0, end = sc.nextInt();
 
+        System.out.print("original array: ");
+        for(int ele : arr){
+            System.out.print(ele + " ");
+        }
+        System.out.println();
+        while (start < end){
+            temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
+        System.out.print("Reversed array: ");
+        for(int ele : arr){
+            System.out.print(ele + " ");
+        }
     }
 }
