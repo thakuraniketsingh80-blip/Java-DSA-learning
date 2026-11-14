@@ -24,7 +24,7 @@ public class ReverseArraysPart {
         for(int ele : arr){
             System.out.print(ele + " ");
         }
-        System.out.println();
+        System.out.println( );
         while (start < end){
             temp = arr[start];
             arr[start] = arr[end];
