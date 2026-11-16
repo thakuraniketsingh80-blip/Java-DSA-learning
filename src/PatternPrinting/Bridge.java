@@ -1,4 +1,4 @@
-package PatternPrinting.Pattern_Printing;
+package PatternPrinting;
 
 import java.util.Scanner;
 
@@ -26,5 +26,6 @@ public class Bridge {
             }
             System.out.println();
         }
+    sc.close();
     }
 }

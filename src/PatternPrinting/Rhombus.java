@@ -1,4 +1,4 @@
-package PatternPrinting.Pattern_Printing;
+package PatternPrinting;
 
 import java.util.Scanner;
 
@@ -18,5 +18,6 @@ public class Rhombus {
             }
         System.out.println();
         }
+        sc.close();
     }
 }
