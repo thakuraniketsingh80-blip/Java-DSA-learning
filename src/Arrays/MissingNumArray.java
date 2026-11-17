@@ -13,11 +13,12 @@ public class MissingNumArray {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        System.out.print("original array: ");
-        for(int ele : arr){
-            System.out.print(ele + " ");
+        int l = arr.length + 1;
+        int sum = l*(l + 1)/2;
+        int SumArray = 0;
+        for (int ele : arr) {
+            SumArray += ele;
         }
-
-        
+        System.out.println("the missing number is: " + (sum-SumArray));
     }
 }
