@@ -24,5 +24,6 @@ public class MaxOfArray {
             }
         }
         System.out.print("The maximum element of the array is: " + max);
+    sc.close();
     }
 }

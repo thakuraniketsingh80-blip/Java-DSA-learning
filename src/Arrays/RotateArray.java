@@ -33,7 +33,7 @@ public class RotateArray {
         for(int ele : arr){
             System.out.print(ele + " ");
         }
-    }
+    sc.close();}
 
 
     static void ReverseArray(int[] arr , int i , int j){
@@ -46,5 +46,6 @@ public class RotateArray {
             i++;
             j--;
         }
+   
     }
 }

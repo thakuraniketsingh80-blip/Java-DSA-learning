@@ -20,5 +20,6 @@ public class MissingNumArray {
             SumArray += ele;
         }
         System.out.println("the missing number is: " + (sum-SumArray));
+    sc.close();
     }
 }

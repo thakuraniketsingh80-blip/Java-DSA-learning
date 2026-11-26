@@ -16,6 +16,7 @@ public class ArraySortBuiltin {
         print(arr);
         Arrays.sort(arr);
         print(arr);
+    sc.close();
     }
 
     static void print(int[] arr) {

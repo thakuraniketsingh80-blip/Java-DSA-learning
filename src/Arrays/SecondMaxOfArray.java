@@ -33,5 +33,6 @@ public class SecondMaxOfArray {
         }
         System.out.print("Second maximum number is: " + smax);
 
+    sc.close();
     }
 }

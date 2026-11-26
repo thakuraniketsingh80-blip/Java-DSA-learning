@@ -33,5 +33,6 @@ public class LinearSearch {
         else {
             System.out.print("The number you searched is not in the array");
         }
+    sc.close();
     }
 }

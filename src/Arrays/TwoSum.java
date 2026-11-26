@@ -28,5 +28,6 @@ public class TwoSum {
             }
         }
         System.out.print("The indices are " + index[0] + " " + index[1]);
+    sc.close();
     }
 }

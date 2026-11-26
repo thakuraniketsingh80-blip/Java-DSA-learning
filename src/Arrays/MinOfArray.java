@@ -24,5 +24,6 @@ public class MinOfArray {
             }
         }
         System.out.print("The minimum element of the array is: " + min);
+    sc.close();
     }
 }

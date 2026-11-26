@@ -25,5 +25,6 @@ public class ArrayOfOtherDatatype {
         for (int i = 0; i < n; i++) {
             System.out.print(arr2[i] + " ");
         }
+    sc.close();
     }
 }
